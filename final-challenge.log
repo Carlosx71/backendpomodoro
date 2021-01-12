@@ -1,0 +1,560 @@
+2020-11-17T17:41:51.062Z [final-challenge] error: GET /api/transaction - Deu ruim
+2020-11-17T17:42:39.470Z [final-challenge] error: GET /api/transaction - Deu ruim
+2020-11-17T17:46:20.442Z [final-challenge] error: GET /api/transaction - É necessário informar o parâmetro "period", cujo o valor deve estar no formato yyyy-mm
+2020-11-17T17:58:58.914Z [final-challenge] error: GET /api/transaction - É necessário informar o parâmetro "period", cujo o valor deve estar no formato yyyy-mm
+2020-11-17T17:59:10.639Z [final-challenge] error: GET /api/transaction - Teste de errão barvo
+2020-11-17T18:21:06.360Z [final-challenge] info: Erro na conexão ao MongoDB
+2020-11-17T18:21:27.580Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T18:22:00.347Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T18:22:00.351Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:33:39.739Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:33:39.742Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:34:27.060Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:34:27.063Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:35:12.241Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:35:12.244Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:35:33.094Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:35:33.097Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:35:50.970Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:35:50.974Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:37:00.465Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:37:00.468Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:37:48.654Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:37:48.658Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:38:07.376Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:38:07.380Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:38:22.352Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:38:22.358Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:38:53.203Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:38:53.206Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:38:59.593Z [final-challenge] error: GET /api/transaction - É necessário informar o parâmetro "period", cujo o valor deve estar no formato yyyy-mm
+2020-11-17T19:42:17.588Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:42:17.592Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:42:55.423Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T19:42:55.426Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T19:43:08.473Z [final-challenge] error: GET /api/transaction - Teste de errão barvo
+2020-11-17T20:09:26.227Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:09:26.232Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:09:29.700Z [final-challenge] error: GET /api/transaction - Teste de errão barvo 1999999
+2020-11-17T20:10:21.248Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:10:21.252Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:13:41.711Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:13:41.714Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:13:46.783Z [final-challenge] error: GET /api/transaction - Teste de errão barvo 1999999
+2020-11-17T20:14:20.681Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:14:20.684Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:14:37.372Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:14:37.375Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:20:34.844Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:20:34.848Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:21:28.184Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:21:28.188Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:21:53.574Z [final-challenge] error: GET /api/transaction - Teste de errão barvo allTransaction
+2020-11-17T20:22:22.933Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:22:22.936Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:23:07.057Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:23:07.060Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:23:16.719Z [final-challenge] error: GET /api/transaction - Teste de errão bravo allTransaction
+2020-11-17T20:24:45.979Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:24:45.983Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:29:32.749Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:29:32.753Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:37:08.109Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:37:08.112Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:38:02.152Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:38:02.156Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:38:36.979Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:38:36.983Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:39:06.868Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:39:23.785Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:39:23.791Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:40:06.940Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:40:06.945Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:41:00.887Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:41:00.893Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:41:47.340Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:41:47.345Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:43:38.528Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:43:38.533Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:45:59.588Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:45:59.591Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:46:37.792Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:46:37.796Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:46:58.813Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:47:27.046Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:47:27.052Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:48:14.819Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:48:14.825Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:57:50.320Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:57:50.323Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:58:18.024Z [final-challenge] error: GET /api/transaction - req is not defined
+2020-11-17T20:59:51.749Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T20:59:51.753Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T20:59:53.901Z [final-challenge] error: Get transaction error
+2020-11-17T20:59:56.519Z [final-challenge] error: Get transaction error
+2020-11-17T21:00:22.494Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:00:22.497Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:00:55.997Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:01:05.910Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:01:05.917Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:02:19.587Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:02:19.594Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:42:28.597Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:42:28.601Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:43:29.194Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:43:29.197Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:43:48.396Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:43:48.399Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:44:47.192Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:44:47.196Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:47:43.030Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:47:43.034Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:47:47.433Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4be not found
+2020-11-17T21:48:29.223Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:48:29.226Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:48:41.264Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4b7 not found
+2020-11-17T21:48:52.144Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4b6 not found
+2020-11-17T21:49:27.398Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:49:27.402Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:49:41.087Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4be not found
+2020-11-17T21:49:49.002Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:49:49.005Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:50:02.171Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:50:02.174Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:50:04.404Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4be not found
+2020-11-17T21:51:56.113Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:51:56.118Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T21:52:04.575Z [final-challenge] info: Delete transaction whith id: 5fb3eb1d68e5420638ecb4b6 not found
+2020-11-17T21:56:14.055Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T21:56:14.059Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:00:06.118Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:00:06.122Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:01:57.585Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:01:57.588Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:02:31.871Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:02:31.874Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:03:16.609Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:03:16.612Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:04:58.216Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:04:58.219Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:26:48.367Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:26:48.370Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:27:02.378Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:27:02.381Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:28:03.476Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:28:03.645Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:28:03.647Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:28:42.853Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:28:43.000Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:28:43.003Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:28:50.798Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:28:50.954Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:28:50.957Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:32:41.975Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:32:42.237Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:32:42.239Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:36:20.152Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:36:20.314Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:36:20.317Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:38:44.679Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:38:44.849Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:38:44.851Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:47:08.806Z [final-challenge] error: GET /api/transaction - É necessário informar o parâmetro "period", cujo o valor deve estar no formato yyyy-mm
+2020-11-17T22:47:12.214Z [final-challenge] error: GET /api/transaction - Teste de errão bravo 1999999
+2020-11-17T22:47:24.957Z [final-challenge] error: GET /api/transaction - Teste de errão bravo all
+2020-11-17T22:48:39.975Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:48:40.147Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:48:40.149Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:48:43.770Z [final-challenge] info: Get all transaction
+2020-11-17T22:49:12.026Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4ab not found
+2020-11-17T22:49:17.772Z [final-challenge] info: Delete transaction whith id: 5fb3eb1d68e5420638ecb4ab not found
+2020-11-17T22:52:53.631Z [final-challenge] info: Get all transaction
+2020-11-17T22:52:59.085Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4ab not found
+2020-11-17T22:53:28.121Z [final-challenge] info: Delete transaction whith id: 5fb3eb1d68e5420638ecb4ab not found
+2020-11-17T22:53:44.500Z [final-challenge] info: Delete transaction whith id: 5fb3eb1d68e5420638ecb4ac not found
+2020-11-17T22:53:55.241Z [final-challenge] error: Insert transaction error  - TransactionModel.insertOne is not a function
+2020-11-17T22:54:13.475Z [final-challenge] error: Insert transaction error  - TransactionModel.insertOne is not a function
+2020-11-17T22:54:22.238Z [final-challenge] info: Get all transaction
+2020-11-17T22:55:20.785Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:55:20.951Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:55:20.957Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:55:28.704Z [final-challenge] info: Get all transaction
+2020-11-17T22:55:40.133Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:55:40.291Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:55:40.298Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:55:49.033Z [final-challenge] info: Get all transaction
+2020-11-17T22:56:53.176Z [final-challenge] error: Insert transaction error  - TransactionModel.insertOne is not a function
+2020-11-17T22:58:28.191Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:58:28.458Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:58:40.111Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T22:58:40.261Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T22:58:40.263Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T22:58:44.207Z [final-challenge] error: Insert transaction error  - TransactionModel.insert is not a function
+2020-11-17T23:00:30.689Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:00:30.869Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:00:30.872Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:00:37.549Z [final-challenge] info: Insert one transaction
+2020-11-17T23:00:52.505Z [final-challenge] info: Get all transaction
+2020-11-17T23:01:42.680Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:01:42.843Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:01:42.845Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:01:45.990Z [final-challenge] info: Insert one transaction
+2020-11-17T23:01:52.600Z [final-challenge] info: Get all transaction
+2020-11-17T23:03:57.866Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:03:58.030Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:03:58.033Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:04:28.484Z [final-challenge] info: Insert one transaction
+2020-11-17T23:06:38.743Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:06:38.912Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:06:38.914Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:06:56.938Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:06:57.094Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:06:57.099Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:10:02.483Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:10:02.660Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:10:02.666Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:10:39.518Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:10:39.678Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:10:39.684Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:11:59.547Z [final-challenge] info: Insert one transaction
+2020-11-17T23:13:41.251Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:13:41.428Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:13:41.433Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:14:22.251Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:14:22.408Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:14:22.413Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:14:49.885Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:14:50.154Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:14:50.159Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:15:04.940Z [final-challenge] info: Insert one transaction
+2020-11-17T23:15:18.683Z [final-challenge] info: Insert many transaction
+2020-11-17T23:15:28.340Z [final-challenge] info: Get all transaction
+2020-11-17T23:16:34.862Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:16:35.037Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:16:35.038Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:16:37.244Z [final-challenge] info: Insert many transaction
+2020-11-17T23:16:55.641Z [final-challenge] info: Insert one transaction
+2020-11-17T23:17:28.930Z [final-challenge] info: Insert many transaction
+2020-11-17T23:17:36.098Z [final-challenge] info: Insert many transaction
+2020-11-17T23:18:38.072Z [final-challenge] info: Insert many transaction
+2020-11-17T23:18:47.344Z [final-challenge] info: Get all transaction
+2020-11-17T23:18:55.679Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:18:55.833Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:18:55.836Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:24:03.232Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:24:03.407Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:24:03.411Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:24:06.898Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:24:07.049Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:24:07.051Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:29:26.065Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:29:26.240Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:29:26.242Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:31:49.723Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:31:49.894Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:31:49.896Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:36:18.572Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:36:18.753Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:36:18.755Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:36:23.134Z [final-challenge] error: Update transaction error  - TransactionModel.findOneAndModify is not a function
+2020-11-17T23:37:06.921Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:37:07.261Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:37:07.263Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:37:16.234Z [final-challenge] error: Update transaction error  - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-11-17T23:43:07.932Z [final-challenge] error: Update transaction error  - Performing an update on the path '_id' would modify the immutable field '_id'
+2020-11-17T23:43:22.627Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:43:22.800Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:43:22.802Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:43:27.181Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:44:22.330Z [final-challenge] info: Get all transaction
+2020-11-17T23:44:29.461Z [final-challenge] info: Get all transaction
+2020-11-17T23:45:19.650Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:45:19.800Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:45:19.802Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:45:25.420Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:45:56.311Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:45:56.472Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:45:56.474Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:46:13.897Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:46:48.317Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:46:48.584Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:46:48.586Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:47:00.646Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:47:48.091Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:47:48.268Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:47:48.270Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:47:49.276Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:47:49.449Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:47:49.451Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:47:51.882Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:49:04.795Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:49:05.065Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:49:05.068Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:49:21.946Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:49:50.083Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:49:50.394Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:49:50.396Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:49:54.982Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:50:44.070Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:50:44.278Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:50:44.280Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:50:46.138Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:51:00.475Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:51:08.881Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:51:24.216Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:51:24.374Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:51:24.376Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:51:35.899Z [final-challenge] info: Update transaction with id 5fb45a10148c4a4d180130b7
+2020-11-17T23:54:15.090Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:54:15.257Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:54:15.259Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:55:01.669Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:55:01.838Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:55:01.840Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:55:22.057Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:55:22.315Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:55:22.317Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:55:55.681Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:55:55.934Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:55:55.937Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:56:06.004Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:56:06.189Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:56:06.191Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:56:10.070Z [final-challenge] error: PUT /api/transaction - TransactionModel.useFindAndModify is not a function
+2020-11-17T23:56:17.697Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:56:17.893Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:56:17.895Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:56:22.590Z [final-challenge] error: PUT /api/transaction - TransactionModel.findAndModify is not a function
+2020-11-17T23:56:34.660Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:56:34.822Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:56:34.824Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:58:03.779Z [final-challenge] info: Get all transaction
+2020-11-17T23:58:59.954Z [final-challenge] info: Get all transaction
+2020-11-17T23:59:42.779Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-17T23:59:42.951Z [final-challenge] info: Conectado ao MongoDB
+2020-11-17T23:59:42.953Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-17T23:59:47.690Z [final-challenge] error: PUT /api/transaction - TransactionModel.findAndModify is not a function
+2020-11-18T00:00:13.923Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:00:14.184Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:00:14.186Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:00:22.323Z [final-challenge] error: PUT /api/transaction - TransactionModel.findAndUpdate is not a function
+2020-11-18T00:00:55.857Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:00:56.228Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:00:56.230Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:01:01.243Z [final-challenge] error: PUT /api/transaction - TransactionModel.findAndUpdate is not a function
+2020-11-18T00:01:13.765Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:01:13.915Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:01:13.917Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:02:38.375Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:02:38.563Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:02:38.565Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:02:55.094Z [final-challenge] error: PUT /api/transaction - body is not defined
+2020-11-18T00:03:07.891Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:03:08.040Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:03:08.043Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:03:49.801Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:03:50.192Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:03:50.194Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:08:22.202Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:08:22.421Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:08:22.423Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:09:21.201Z [final-challenge] error: PUT /api/transaction - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae1" at path "_id" for model "transaction"
+2020-11-18T00:10:16.752Z [final-challenge] error: PUT /api/transaction - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae1" at path "_id" for model "transaction"
+2020-11-18T00:10:36.362Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:10:36.788Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:10:36.791Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:10:38.454Z [final-challenge] error: PUT /api/transaction - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae1" at path "_id" for model "transaction"
+2020-11-18T00:11:01.776Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:11:01.960Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:11:01.962Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:11:04.235Z [final-challenge] error: PUT /api/transaction - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae1" at path "_id" for model "transaction"
+2020-11-18T00:11:15.070Z [final-challenge] error: PUT /api/transaction - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T00:11:20.079Z [final-challenge] error: PUT /api/transaction - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae5" at path "_id" for model "transaction"
+2020-11-18T00:11:58.033Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:11:58.283Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:11:58.285Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:12:01.554Z [final-challenge] error: Update transaction error  - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae5" at path "_id" for model "transaction"
+2020-11-18T00:13:09.019Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:13:09.183Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:13:09.185Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T00:13:11.249Z [final-challenge] error: Update transaction error  - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae5" at path "_id" for model "transaction"
+2020-11-18T00:14:04.551Z [final-challenge] error: Update transaction error  - Cast to ObjectId failed for value "1" at path "_id" for model "transaction"
+2020-11-18T00:14:07.592Z [final-challenge] error: Update transaction error  - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae5" at path "_id" for model "transaction"
+2020-11-18T00:19:01.044Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T00:19:01.257Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T00:19:01.259Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T01:07:30.183Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T01:07:30.376Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T01:07:30.379Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:24:36.917Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:24:37.097Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:24:37.099Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:32:52.214Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:32:52.382Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:32:52.384Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:33:36.836Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:33:36.993Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:33:36.995Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:34:08.591Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:34:08.753Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:34:08.755Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:34:41.788Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:34:41.965Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:34:41.967Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:35:03.351Z [final-challenge] error: Update transaction error  - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae5" at path "_id" for model "transaction"
+2020-11-18T13:35:13.767Z [final-challenge] info: Get all transaction
+2020-11-18T13:35:25.040Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T13:36:13.998Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T13:36:26.216Z [final-challenge] info: Get all transaction
+2020-11-18T13:42:16.015Z [final-challenge] info: Get all transaction
+2020-11-18T13:43:07.444Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T13:43:12.756Z [final-challenge] info: Get all transaction
+2020-11-18T13:44:00.437Z [final-challenge] info: Update transaction with id undefined
+2020-11-18T13:44:00.438Z [final-challenge] info: Id: undefined not found to update
+2020-11-18T13:44:32.827Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:44:32.989Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:44:32.991Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T13:44:36.372Z [final-challenge] error: Update transaction error  - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4ae5" at path "_id" for model "transaction"
+2020-11-18T13:45:01.985Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T13:45:09.635Z [final-challenge] info: Get all transaction
+2020-11-18T13:45:25.280Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T13:45:34.700Z [final-challenge] info: Get all transaction
+2020-11-18T13:45:50.835Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T13:45:51.009Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T13:45:51.012Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:00:23.103Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:00:23.271Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:00:23.273Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:02:21.036Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:02:21.203Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:02:21.205Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:02:34.090Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:02:34.241Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:02:34.243Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:02:36.910Z [final-challenge] info: Get transaction by period 1999999
+2020-11-18T14:03:06.872Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:04:18.341Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:04:18.502Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:04:18.504Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:04:28.692Z [final-challenge] info: Get transaction by period 2019-023
+2020-11-18T14:04:33.287Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:04:35.220Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:05:00.381Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:05:00.542Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:05:00.544Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:05:03.336Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:05:33.874Z [final-challenge] info: Get transaction by period 2019-023
+2020-11-18T14:06:30.153Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:06:30.329Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:06:30.332Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:06:33.229Z [final-challenge] info: Get transaction by period 2019-023
+2020-11-18T14:06:38.683Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:06:59.671Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:06:59.830Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:06:59.833Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:07:02.846Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:07:07.082Z [final-challenge] info: Get transaction by period 2019-022
+2020-11-18T14:07:41.462Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:07:41.626Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:07:41.629Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:07:43.335Z [final-challenge] info: Get transaction by period 2019-022
+2020-11-18T14:07:56.087Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:07:56.241Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:07:56.243Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:08:04.386Z [final-challenge] info: Get transaction by period 2019-022
+2020-11-18T14:08:04.387Z [final-challenge] info: Get transaction whith id: undefined not found
+2020-11-18T14:10:09.750Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:10:09.927Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:10:09.930Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:10:13.585Z [final-challenge] info: Get transaction by period 2019-022
+2020-11-18T14:10:13.587Z [final-challenge] info: Get transaction whith period: 2019-022 not found
+2020-11-18T14:10:18.802Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:10:24.928Z [final-challenge] info: Get all transaction
+2020-11-18T14:10:55.434Z [final-challenge] info: Get transaction by id 5fb3eb1d68e5420638ecb4ae
+2020-11-18T14:11:01.008Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:11:47.793Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:11:47.959Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:11:47.961Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:11:51.583Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:12:58.577Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:12:58.740Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:12:58.743Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:13:03.014Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:13:33.134Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:13:33.303Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:13:33.306Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:13:36.920Z [final-challenge] info: Get transaction by id 5fb3eb1d68e5420638ecb4ae
+2020-11-18T14:13:38.603Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:13:39.967Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:13:57.834Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:13:58.002Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:13:58.004Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:14:00.125Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:14:28.638Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:14:28.793Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:14:28.795Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:14:32.960Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:16:35.166Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:16:35.328Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:16:35.330Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:16:36.784Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:16:36.934Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:16:36.937Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:16:37.974Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4aee" at path "_id" for model "transaction"
+2020-11-18T14:16:50.710Z [final-challenge] info: Get all transaction
+2020-11-18T14:16:59.163Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:17:06.770Z [final-challenge] info: Get transaction by period 2019-03
+2020-11-18T14:18:35.801Z [final-challenge] error: GET /api/transaction - É necessário informar o parâmetro "period", cujo o valor deve estar no formato yyyy-mm
+2020-11-18T14:20:05.463Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:20:05.639Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:20:05.645Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:20:07.366Z [final-challenge] info: Get all transaction
+2020-11-18T14:22:46.613Z [final-challenge] info: Get all transaction
+2020-11-18T14:22:54.606Z [final-challenge] info: Get all transaction
+2020-11-18T14:23:00.323Z [final-challenge] info: Get all transaction
+2020-11-18T14:26:55.925Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:26:56.098Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:26:56.100Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:26:58.759Z [final-challenge] info: Get all transaction
+2020-11-18T14:27:50.571Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:27:50.736Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:27:50.738Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:27:57.073Z [final-challenge] info: Get all transaction
+2020-11-18T14:29:28.776Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:29:28.959Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:29:28.966Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:31:13.013Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:31:13.184Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:31:13.191Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:32:18.511Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:32:18.679Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:32:18.686Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:32:32.349Z [final-challenge] info: Get transaction by period 2019-01
+2020-11-18T14:36:20.232Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:36:20.393Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:36:20.395Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:36:39.694Z [final-challenge] info: Get all transaction
+2020-11-18T14:36:51.818Z [final-challenge] info: Get transaction by period 2019-01
+2020-11-18T14:36:55.088Z [final-challenge] info: Get transaction by period 2019-02
+2020-11-18T14:37:20.693Z [final-challenge] error: Get transaction error - Cast to ObjectId failed for value "5fb3eb1d68e5420638ecb4a" at path "_id" for model "transaction"
+2020-11-18T14:37:22.148Z [final-challenge] info: Get transaction by id 5fb3eb1d68e5420638ecb4ae
+2020-11-18T14:37:38.475Z [final-challenge] info: Get transaction by id 5fb3eb1d68e5420638ecb4ae
+2020-11-18T14:37:38.476Z [final-challenge] info: Get transaction whith id: 5fb3eb1d68e5420638ecb4ae not found
+2020-11-18T14:37:49.059Z [final-challenge] error: Insert transaction error  - transaction validation failed: description: Path `description` is required.
+2020-11-18T14:39:03.823Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T14:39:04.003Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T14:39:04.005Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T14:39:07.109Z [final-challenge] error: Insert transaction error  - transaction validation failed: description: Path `description` is required.
+2020-11-18T14:39:23.151Z [final-challenge] info: Insert many transaction
+2020-11-18T14:39:30.923Z [final-challenge] info: Get transaction by id 5fb5321bdcf8c941dc0ae26a
+2020-11-18T14:39:57.114Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T14:42:24.723Z [final-challenge] info: Update transaction with id 5fb3eb1d68e5420638ecb4ad
+2020-11-18T14:43:35.344Z [final-challenge] info: Get all transaction
+2020-11-18T15:14:16.807Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2020-11-18T15:14:16.981Z [final-challenge] info: Conectado ao MongoDB
+2020-11-18T15:14:16.984Z [final-challenge] info: Servidor iniciado na porta 3001
+2020-11-18T15:14:21.993Z [final-challenge] error: Insert transaction error  - transaction validation failed: description: Path `description` is required.
+2020-11-18T15:14:48.744Z [final-challenge] info: Insert many transaction
+2020-11-18T15:14:55.078Z [final-challenge] info: Get transaction by id 5fb53a6825ddf945740b3d37
+2021-01-11T23:42:51.718Z [final-challenge] info: Iniciando conexão ao MongoDB...
+2021-01-11T23:43:21.777Z [final-challenge] error: Erro na conexão ao MongoDB - MongooseServerSelectionError: bad auth : Authentication failed.

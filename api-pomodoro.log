@@ -1,0 +1,51 @@
+2021-01-11T23:44:45.644Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-11T23:44:46.048Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-11T23:44:46.062Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:13:36.175Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:13:36.388Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:13:36.401Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:18:27.539Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:18:27.721Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:18:27.725Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:18:59.467Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:18:59.640Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:18:59.645Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:20:09.591Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:20:09.789Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:20:09.794Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:20:25.939Z [api-pomodoro] error: GET /api/pomodoro - É necessário informar o parâmetro "period", cujo o valor deve estar no formato yyyy-mm
+2021-01-12T00:22:30.326Z [api-pomodoro] error: Insert pomodoro error  - pomodoro validation failed: cycles: Path `cycles` is required., longRestTime: Path `longRestTime` is required., shortRestTime: Path `shortRestTime` is required., pomodoroTime: Path `pomodoroTime` is required.
+2021-01-12T00:24:21.432Z [api-pomodoro] error: Insert pomodoro error  - pomodoro validation failed: cycles: Path `cycles` is required., longRestTime: Path `longRestTime` is required., shortRestTime: Path `shortRestTime` is required., pomodoroTime: Path `pomodoroTime` is required.
+2021-01-12T00:24:36.345Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:24:36.680Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:24:36.687Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:24:44.862Z [api-pomodoro] error: Insert pomodoro error  - pomodoro validation failed: cycles: Path `cycles` is required., longRestTime: Path `longRestTime` is required., shortRestTime: Path `shortRestTime` is required., pomodoroTime: Path `pomodoroTime` is required.
+2021-01-12T00:26:03.675Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:26:03.864Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:26:03.868Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:26:10.711Z [api-pomodoro] error: Insert pomodoro error  - pomodoro validation failed: cycles: Path `cycles` is required., longRestTime: Path `longRestTime` is required., shortRestTime: Path `shortRestTime` is required., pomodoroTime: Path `pomodoroTime` is required.
+2021-01-12T00:27:34.937Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:27:35.127Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:27:35.146Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:27:39.108Z [api-pomodoro] info: Insert many transaction
+2021-01-12T00:28:57.026Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:28:57.298Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:28:57.305Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:29:00.356Z [api-pomodoro] info: Insert many transaction
+2021-01-12T00:29:25.597Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:29:26.030Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:29:26.034Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:29:28.635Z [api-pomodoro] info: Insert many transaction
+2021-01-12T00:33:22.061Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:33:22.379Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:33:22.389Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:34:15.742Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T00:34:16.012Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T00:34:16.017Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T00:34:39.534Z [api-pomodoro] info: Get transaction by period 
+2021-01-12T12:48:58.445Z [api-pomodoro] info: Iniciando conexão ao MongoDB...
+2021-01-12T12:48:58.781Z [api-pomodoro] info: Conectado ao MongoDB
+2021-01-12T12:48:58.793Z [api-pomodoro] info: Servidor iniciado na porta 3001
+2021-01-12T12:57:10.596Z [api-pomodoro] info: Get transaction by period 
+2021-01-12T13:00:47.002Z [api-pomodoro] info: Insert many transaction
+2021-01-12T13:00:53.655Z [api-pomodoro] info: Get transaction by period 
