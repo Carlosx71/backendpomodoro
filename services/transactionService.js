@@ -48,7 +48,7 @@ const insertPomodoro = async (req, res) => {
 
     } catch (error) {
         logger.error(`Insert pomodoro error  - ${error.message}`);
-        res.status(500).modulesend(error.message)
+        res.status(500).send(`Pomodoro deu merda na hora de gravar: ${error.message}`)
         return `Insert pomodoro error  - ${error.message}`;
     };
 };

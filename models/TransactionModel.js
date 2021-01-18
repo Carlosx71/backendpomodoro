@@ -1,21 +1,25 @@
 const mongoose = require('mongoose');
 
 const schema = mongoose.Schema({
-  totalOfPomodoros: {
-    type: Number,
-    required: true,
-  } ,
-  totalWorkingTime: {
+  numberOfPomodoros: {
     type: Number,
     required: true,
   },
-  totalCycles: {
+  fullWorkingTime: {
     type: Number,
+    required: true,
+  },
+  completedCycles: {
+    type: Number,
+    required: true,
+  },
+  email: {
+    type: String,
     required: true,
   },
   data: {
     type: Date,
-    default: Date.now
+    default: new Date()
 }
 });
 
@@ -24,6 +28,28 @@ const TransactionModel = mongoose.model('pomodoro', schema);
 module.exports = TransactionModel;
 
 
+// const schema = mongoose.Schema({
+//   totalOfPomodoros: {
+//     type: Number,
+//     required: true,
+//   } ,
+//   totalWorkingTime: {
+//     type: Number,
+//     required: true,
+//   },
+//   totalCycles: {
+//     type: Number,
+//     required: true,
+//   },
+//   email: {
+//     type: String,
+//     required: true,
+//   },
+//   data: {
+//     type: Date,
+//     default: new Date()
+// }
+// });
 
 // let schema = mongoose.Schema({
 //   description: {
