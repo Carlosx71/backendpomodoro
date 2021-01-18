@@ -4,8 +4,9 @@ const pomodoroRouter = express.Router();
 // const app = express();
 const transactionService = require('../services/transactionService');
 
-pomodoroRouter.post('/', transactionService.insertPomodoro)
+pomodoroRouter.post('/', transactionService.insertPomodoro);
 pomodoroRouter.get('/', transactionService.rootGet);
+pomodoroRouter.delete('/:_id', transactionService.delById);
 //Retrive
 // transactionRouter.get('/', transactionService.rootGet);
 // transactionRouter.get('/period/:period?', transactionService.getPeriod);

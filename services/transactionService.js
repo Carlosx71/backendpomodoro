@@ -27,6 +27,7 @@ const rootGet = async (req, res) => {
     // };
 };
 
+// Rotas de Post
 const insertPomodoro = async (req, res) => {
 
 
@@ -53,6 +54,19 @@ const insertPomodoro = async (req, res) => {
     };
 };
 
+// Rota de Del
+
+const delById = async (req, res) => {
+    try {
+        const deleteOnePomodoroHistory = await TransactionModel.findOneAndRemove({_id: req.params._id})
+        res.status(200).send(`Deletado com sucesso: ${deleteOnePomodoroHistory}`)
+        logger.info(`[DEL] Delete byId pomodoro`);
+        
+    } catch (error) {
+        logger.error(`[DEL] Delete byId pomodoro error  - ${error.message}`);
+        res.status(500).send(`Deu merda no servidor ${error.message}`)
+    }
+}
 
 // const getPeriod = async (req, res) => {
 //     try {      
@@ -269,6 +283,7 @@ const insertPomodoro = async (req, res) => {
 module.exports = {
     rootGet, 
     insertPomodoro,
+    delById,
     // getPeriod,
     TransactionModel,
     // getAllTransactions,
