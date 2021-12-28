@@ -10,83 +10,100 @@ const TransactionModel = require('../models/TransactionModel');
 
 // Rotas de GET
 const rootGet = async (req, res) => {
-    try {
-        transaction = await TransactionModel.find();
-        logger.info(`Get pomodoro `);
-        res.status(200).send(transaction)
-    } catch (error) {
-        logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-        res.status(400).send({ error: error.message })
-    }
+  try {
+    transaction = await TransactionModel.find();
+    logger.info(`Get pomodoro `);
+    res.status(200).send(transaction);
+  } catch (error) {
+    logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+    res.status(400).send({ error: error.message });
+  }
 
-    // try {      
-    //     throw new Error('É necessário informar o parâmetro \"period"\, cujo o valor deve estar no formato yyyy-mm')
-    // } catch (error) {
-    //     logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-    //     res.status(400).send({ error: error.message })
-    // };
+  // try {
+  //     throw new Error('É necessário informar o parâmetro \"period"\, cujo o valor deve estar no formato yyyy-mm')
+  // } catch (error) {
+  //     logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+  //     res.status(400).send({ error: error.message })
+  // };
+};
+
+const getByEmail = async (req, res) => {
+  try {
+    transaction = await TransactionModel.find({ email: req.params.email });
+    logger.info(`Get pomodoro `);
+    res.status(200).send(transaction);
+  } catch (error) {
+    logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+    res.status(400).send({ error: error.message });
+  }
+
+  // try {
+  //     throw new Error('É necessário informar o parâmetro \"period"\, cujo o valor deve estar no formato yyyy-mm')
+  // } catch (error) {
+  //     logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+  //     res.status(400).send({ error: error.message })
+  // };
 };
 
 // Rotas de Post
 const insertPomodoro = async (req, res) => {
-
-
-    try {
-        let pomodoroSummary;
-        pomodoroSummary = await TransactionModel.insertMany(req.body);
-        logger.info(`Insert many transaction` );
-        res.status(201).send('Criado com sucesso: ' + pomodoroSummary);
-        // if (Object.keys(body).length > 1) {
-        //     pomodoroSummary = await TransactionModel.insertMany(body);
-        //     logger.info(`Insert many transaction` );
-        //     return pomodoroSummary;
-        // } else {
-        //     pomodoroSummary = new TransactionModel(body);
-        //     await pomodoroSummary.save();
-        //     logger.info(`Insert one pomodoros` );
-        //     return pomodoroSummary;
-        // }
-
-    } catch (error) {
-        logger.error(`Insert pomodoro error  - ${error.message}`);
-        res.status(500).send(`Pomodoro deu merda na hora de gravar: ${error.message}`)
-        return `Insert pomodoro error  - ${error.message}`;
-    };
+  try {
+    let pomodoroSummary;
+    pomodoroSummary = await TransactionModel.insertMany(req.body);
+    logger.info(`Insert many transaction`);
+    res.status(201).send('Criado com sucesso: ' + pomodoroSummary);
+    // if (Object.keys(body).length > 1) {
+    //     pomodoroSummary = await TransactionModel.insertMany(body);
+    //     logger.info(`Insert many transaction` );
+    //     return pomodoroSummary;
+    // } else {
+    //     pomodoroSummary = new TransactionModel(body);
+    //     await pomodoroSummary.save();
+    //     logger.info(`Insert one pomodoros` );
+    //     return pomodoroSummary;
+    // }
+  } catch (error) {
+    logger.error(`Insert pomodoro error  - ${error.message}`);
+    res
+      .status(500)
+      .send(`Pomodoro deu merda na hora de gravar: ${error.message}`);
+    return `Insert pomodoro error  - ${error.message}`;
+  }
 };
 
 // Rota de Del
 
 const delById = async (req, res) => {
-    try {
-        const deleteOnePomodoroHistory = await TransactionModel.findOneAndRemove({_id: req.params._id})
-        res.status(200).send(`Deletado com sucesso: ${deleteOnePomodoroHistory}`)
-        logger.info(`[DEL] Delete byId pomodoro`);
-        
-    } catch (error) {
-        logger.error(`[DEL] Delete byId pomodoro error  - ${error.message}`);
-        res.status(500).send(`Deu merda no servidor ${error.message}`)
-    }
-}
+  try {
+    const deleteOnePomodoroHistory = await TransactionModel.findOneAndRemove({
+      _id: req.params._id,
+    });
+    res.status(200).send(`Deletado com sucesso: ${deleteOnePomodoroHistory}`);
+    logger.info(`[DEL] Delete byId pomodoro`);
+  } catch (error) {
+    logger.error(`[DEL] Delete byId pomodoro error  - ${error.message}`);
+    res.status(500).send(`Deu merda no servidor ${error.message}`);
+  }
+};
 
 // const getPeriod = async (req, res) => {
-//     try {      
+//     try {
 //         const period = req.query.period
 //         console.log(period)
 //         const transaction = await getTransaction(undefined, period)
 //         res.status(200).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
 //         res.status(400).send({ error: error.message })
 //     };
 // };
 
- 
 // const getAllTransactions = async (req, res) => {
 //     try {
 //         const allTransactions = await getTransaction();
 //         res.status(200).send(allTransactions);
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
 //         res.status(400).send({ error: error.message })
 //     };
 // };
@@ -96,7 +113,7 @@ const delById = async (req, res) => {
 //         const transaction = await getTransaction(req.params.id)
 //         res.status(200).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
 //         res.status(400).send({ error: error.message })
 //     };
 // };
@@ -108,29 +125,29 @@ const delById = async (req, res) => {
 //             transaction = await TransactionModel.find({yearMonth: period});
 //             logger.info(`Get transaction by period ${period}`);
 
-//         } else if (typeof id === 'undefined') {           
+//         } else if (typeof id === 'undefined') {
 //             transaction = await TransactionModel.find();
-//             logger.info(`Get all transaction` );    
+//             logger.info(`Get all transaction` );
 //             return transaction;
-        
+
 //         } else {
 //             transaction = await TransactionModel.findById(id);
 //             logger.info(`Get transaction by id ${id}`);
 //             console.log(transaction)
 //         };
 //         if (!transaction){
-//             logger.info(`Get transaction whith id: ${id} not found` );    
+//             logger.info(`Get transaction whith id: ${id} not found` );
 //             return `Transação com o id: ${id} não foi encontrado`;
-            
+
 //        } else if (transaction.length === 0){
-        
-//             logger.info(`Get transaction whith period: ${period} not found` );    
+
+//             logger.info(`Get transaction whith period: ${period} not found` );
 //             return `Transação com perido: ${period} não encontrado`;
 
 //        } else {
 //             return transaction
 //         }
-        
+
 //     } catch (error) {
 //         logger.error(`Get transaction error - ${error.message}`);
 
@@ -151,7 +168,7 @@ const delById = async (req, res) => {
 //         const transaction = await deleteTransaction(req.params.id)
 //         res.status(200).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
 //         res.status(400).send({ error: error.message });
 //     };
 // };
@@ -161,8 +178,8 @@ const delById = async (req, res) => {
 //         const transaction = await deleteTransaction()
 //         res.status(200).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-//         res.status(400).send({ error: error.message }); 
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+//         res.status(400).send({ error: error.message });
 //     }
 // }
 
@@ -173,21 +190,21 @@ const delById = async (req, res) => {
 //         if (typeof id === 'undefined')
 //         {
 //             transaction = await TransactionModel.deleteMany()
-//             logger.info(`Delete all transaction` );    
+//             logger.info(`Delete all transaction` );
 //             return transaction;
 //         } else {
 //             transaction = await TransactionModel.findOneAndRemove({ _id: id})
 
 //             if (!transaction){
-//                 logger.info(`Delete transaction whith id: ${id} not found` );    
+//                 logger.info(`Delete transaction whith id: ${id} not found` );
 //                 return `Remoção de transação com o id: ${id} não foi encontrado`;
 //             } else {
 //                 return transaction;
 //             };
 //         };
-        
+
 //     } catch (error) {
-//         logger.error(`Delete transaction error  - ${error.message}`);    
+//         logger.error(`Delete transaction error  - ${error.message}`);
 //     };
 // };
 
@@ -197,10 +214,10 @@ const delById = async (req, res) => {
 //     try {
 //         const transaction = await insertTransaction(req.body)
 //         res.status(201).send(transaction)
-        
+
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-//         res.status(400).send({ error: error.message }); 
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+//         res.status(400).send({ error: error.message });
 //     }
 // };
 
@@ -209,8 +226,8 @@ const delById = async (req, res) => {
 //         const transaction = await insertTransaction(req.body)
 //         res.status(201).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-//         res.status(400).send({ error: error.message }); 
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+//         res.status(400).send({ error: error.message });
 //     }
 // }
 
@@ -242,8 +259,8 @@ const delById = async (req, res) => {
 //         const transaction = await updateTransaction(req.params.id, req.body)
 //         res.status(200).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-//         res.status(400).send({ error: error.message }); 
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+//         res.status(400).send({ error: error.message });
 //     }
 // };
 
@@ -252,8 +269,8 @@ const delById = async (req, res) => {
 //         const transaction = await updateTransaction(req.params.id, req.body)
 //         res.status(200).send(transaction)
 //     } catch (error) {
-//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);    
-//         res.status(400).send({ error: error.message }); 
+//         logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+//         res.status(400).send({ error: error.message });
 //     }
 // };
 
@@ -266,33 +283,33 @@ const delById = async (req, res) => {
 //             {_id: id}, body, { new : true }
 //         );
 //         console.log(transaction)
-//         logger.info(`Update transaction with id ${id}` );    
+//         logger.info(`Update transaction with id ${id}` );
 
 //         if (!transaction){
-//             logger.info(`Id: ${id} not found to update` );    
+//             logger.info(`Id: ${id} not found to update` );
 //             return `O id: ${id} não foi encontrado para atualização`;
 //         } else {
 //             return transaction;
 //         };
 //     } catch (error) {
-//         logger.error(`Update transaction error  - ${error.message}`); 
+//         logger.error(`Update transaction error  - ${error.message}`);
 //         return `Update transaction error  - ${error.message}`
 //     }
 // }
 
 module.exports = {
-    rootGet, 
-    insertPomodoro,
-    delById,
-    // getPeriod,
-    TransactionModel,
-    // getAllTransactions,
-    // getOneTransaction,
-    // deleteAllTrans,
-    // deleteOneTransaction,
-    // insertOneTransaction,
-    // inserAllTrans,
-    // updateOneTransaction,
-    // updateCompTransaction,
-    
+  rootGet,
+  getByEmail,
+  insertPomodoro,
+  delById,
+  // getPeriod,
+  TransactionModel,
+  // getAllTransactions,
+  // getOneTransaction,
+  // deleteAllTrans,
+  // deleteOneTransaction,
+  // insertOneTransaction,
+  // inserAllTrans,
+  // updateOneTransaction,
+  // updateCompTransaction,
 };

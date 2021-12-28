@@ -6,6 +6,7 @@ const transactionService = require('../services/transactionService');
 
 pomodoroRouter.post('/', transactionService.insertPomodoro);
 pomodoroRouter.get('/', transactionService.rootGet);
+pomodoroRouter.get('/:email', transactionService.getByEmail);
 pomodoroRouter.delete('/:_id', transactionService.delById);
 //Retrive
 // transactionRouter.get('/', transactionService.rootGet);

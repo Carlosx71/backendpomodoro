@@ -28,20 +28,16 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 const { combine, timestamp, label, printf } = winston.format;
 
 const myFormat = printf(({ level, message, label, timestamp }) => {
-    return `${timestamp} [${label}] ${level}: ${message}`;
+  return `${timestamp} [${label}] ${level}: ${message}`;
 });
 
 global.logger = winston.createLogger({
-  level: "silly",
+  level: 'silly',
   transports: [
-      new (winston.transports.Console)(),
-      new (winston.transports.File)({ filename: "api-pomodoro.log" })
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: 'api-pomodoro.log' }),
   ],
-  format: combine(
-      label({ label: "api-pomodoro"}),
-      timestamp(),
-      myFormat
-  )
+  format: combine(label({ label: 'api-pomodoro' }), timestamp(), myFormat),
 });
 
 /**
@@ -49,8 +45,7 @@ global.logger = winston.createLogger({
  */
 app.get('/', (_, response) => {
   response.send({
-    message:
-      'Bem-vindo à API pra gente testar essa bagaça',
+    message: 'Bem-vindo à API pra gente testar essa bagaça',
   });
 });
 
@@ -63,11 +58,11 @@ app.use('/api/pomodoro', routes);
  * Conexão ao Banco de Dados
  */
 const { DB_CONNECTION } = process.env;
-logger.info(`Iniciando conexão ao MongoDB...`);    
+logger.info(`Iniciando conexão ao MongoDB...`);
 
 // console.log('Iniciando conexão ao MongoDB...');
 mongoose.connect(
-  DB_CONNECTION,
+  'mongodb+srv://admin:admin@cluster0.wcspg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -75,7 +70,7 @@ mongoose.connect(
   (err) => {
     if (err) {
       connectedToMongoDB = false;
-      logger.error(`Erro na conexão ao MongoDB - ${err}`);    
+      logger.error(`Erro na conexão ao MongoDB - ${err}`);
       // console.error(`Erro na conexão ao MongoDB - ${err}`);
     }
   }
@@ -85,7 +80,7 @@ const { connection } = mongoose;
 
 connection.once('open', () => {
   connectedToMongoDB = true;
-  logger.info(`Conectado ao MongoDB`);    
+  logger.info(`Conectado ao MongoDB`);
 
   /**
    * Definição de porta e
@@ -93,9 +88,7 @@ connection.once('open', () => {
    */
   const APP_PORT = process.env.PORT || 3001;
   app.listen(APP_PORT, () => {
-    logger.info(`Servidor iniciado na porta ${APP_PORT}`);    
+    logger.info(`Servidor iniciado na porta ${APP_PORT}`);
     // console.log(`Servidor iniciado na porta ${APP_PORT}`);
   });
 });
-
-
